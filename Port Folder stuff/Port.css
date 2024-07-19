@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+#navbar {
+    position: fixed;
+    background-color: darkblue;
+    width: 100%;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    width: 75px;
+    font-weight: bold;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+li > a {
+    text-decoration: none;
+    color: white
+}
+ 
+#projects {
+    background-color: blue;
+}
+
+#welcome-section, #contact {
+    background-color: red;
+}
+
+#welcome-section, #contact {
+    text-align: center;
+ /* add margin or border bottom and reduce padding */
+}
+
+#welcome-section, #contact {
+    height: 500px;
+    border-top: 100px;
+    padding-top: 300px;
+}
+
+#projects {
+    text-align: center;
+    height: 700px;
+    padding: 60px 0 0 0;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h3 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+     body {
+        background-color: green;
+    }
+}
+
+.flex-one {
+    display: flex;
+    justify-content: space-between;
+}
